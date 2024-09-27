@@ -1,0 +1,10 @@
+.custom-menu .ant-menu-item-selected::after {
+  display: none !important;
+  color: black;
+}
+
+/* Optional: Customize hover effect or active state */
+.custom-menu .ant-menu-item:hover {
+  background-color: transparent; /* Remove background on hover */
+  color: black;  /* Custom hover text color */
+}
